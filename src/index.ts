@@ -23,7 +23,7 @@ const employee2: Employee = {
   isActive: false,
 };
 
-// 1. Write the Function
+//The DIsplay Function
 function logEmployee(employee: Employee): void {
 
   const [firstName, lastName] = employee.fullName;
@@ -36,6 +36,6 @@ function logEmployee(employee: Employee): void {
   console.log("--------------------------\n");
 }
 
-// 2. Call the Function
+//Calling the function
 logEmployee(employee1);
 logEmployee(employee2);
